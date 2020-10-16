@@ -1,0 +1,55 @@
+<html>
+	<title> My App+Web Property </title>
+	<head> 
+
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-3M81GZGXX6"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'G-3M81GZGXX6');
+		</script>
+	</head>
+	<body>
+	
+	<h1> Thank You for Shopping!! </h1>
+	<script>
+	gtag('event', 'purchase', {
+  transaction_id: 'T_12345',
+  value: 36.27,
+  currency: 'USD',
+  tax: 3.30,
+  shipping: 0,
+  coupon: 'free_shipping',
+  items: [{
+    item_id: 'I_12345',
+    item_name: 'Android Warhol T-Shirt',
+    item_list_name: 'Search Results',
+    item_list_id: 'L_12345',
+    item_brand: 'Google',
+    item_category: 'Apparel/T-Shirts',
+    item_variant: 'Black',
+    index: 1,
+    quantity: 2,
+    price: 9.99,
+    affiliation: 'Google Online Store'
+  }, {
+    item_id: 'I_12346',
+    item_name: 'Flame challenge T-Shirt',
+    item_list_name: 'Search Results',
+    item_list_id: 'L_12345',
+    item_brand: 'Flame Challenge',
+    item_category: 'Apparel/T-Shirts',
+    item_variant: 'Red',
+    index: 2,
+    quantity: 1,
+    price: 12.99,
+    affiliation: 'Google Online Store',
+    coupon: '5OFFRED'
+  }]
+});
+</script>
+	</body>
+</html>
